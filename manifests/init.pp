@@ -3,7 +3,7 @@
 # Examples
 #
 #   include tomcat
-class grails {
+class tomcat {
   include homebrew
 
   package { 'tomcat': }
