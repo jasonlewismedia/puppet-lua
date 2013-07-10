@@ -1,4 +1,4 @@
-# Installs Grails for Boxen
+# Installs Tomcat for Boxen
 
 ## Usage
 
