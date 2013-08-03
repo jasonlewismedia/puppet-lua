@@ -1,16 +1,16 @@
-# Public: Install tomcat into Homebrew
+# Public: Install lua into Homebrew
 #
 # Examples
 #
-#   include tomcat
-class tomcat {
+#   include lua
+class lua {
   include homebrew
 
-  package { 'tomcat': }
+  package { 'lua': }
 
-  homebrew::formula { 'tomcat':
-    before => Package['boxen/brews/tomcat'],
+  homebrew::formula { 'lua':
+    before => Package['boxen/brews/lua'],
   }
 
-  package { 'boxen/brews/tomcat': }
+  package { 'boxen/brews/lua': }
 }
